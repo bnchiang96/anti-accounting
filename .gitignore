@@ -1,0 +1,41 @@
+# macOS
+.DS_Store
+
+# Editors / IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Runtime / temp
+*.log
+*.pid
+*.tmp
+*.temp
+.cache/
+dist/
+build/
+coverage/
+
+# Local database dumps and archives
+*.bak
+*.dump
+*.sqlite
+*.sqlite3
+*.db
+*.tar
+*.tar.gz
+*.zip
